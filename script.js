@@ -39,3 +39,10 @@ const previousOperandTextElement = document.querySelector(
 const currentOperandButtonTextElement = document.querySelector(
   "[data-current-operand]"
 ); // querySelector - for single eliment
+
+const calculator = new calculator(
+  previousOperandTextElement,
+  currentOperandButtonTextElement
+);
+
+numberButtons.forEach((button) => {});
