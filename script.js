@@ -2,10 +2,15 @@ class Calculator {
   construnctor(previousOperandTextElement, currentOperandButtonTextElement) {
     this.previousOperandTextElement = previousOperandTextElement;
     this.currentOperandButtonTextElement = currentOperandButtonTextElement;
+    this.clear();
   }
 
   //Clear all different variables
-  clear() {}
+  clear() {
+    this.currentOperation = "";
+    this.currentOration = "";
+    this.operation = undefined;
+  }
 
   //Delete a single number
   delete() {}
