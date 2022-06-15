@@ -49,12 +49,12 @@ body {
   word-break: break-all;
 }
 
-.output-part .previous-operation {
+.output-part .previous-operand {
   color: rgba(255, 255, 255, 0.75);
   font-size: 1.5rem;
 }
 
-.output-part .current-operation {
+.output-part .current-operand {
   color: white;
   font-size: 2.5rem;
 }
